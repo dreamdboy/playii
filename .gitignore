@@ -1,0 +1,2 @@
+# 忽略通过Composer安装的包
+vendor/

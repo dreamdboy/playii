@@ -1,0 +1,22 @@
+{
+    "name": "modi/playii",
+    "type": "project",
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Mo Di",
+            "email": "modihq@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
