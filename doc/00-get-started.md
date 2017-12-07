@@ -47,6 +47,7 @@ php -r "unlink('composer-setup.php');"
 练习：
 
 1）理解Composer的指令
+
 - install
 - update（和install的区别？）
 - remove
@@ -55,7 +56,12 @@ php -r "unlink('composer-setup.php');"
 - status
 - global
 
-2）自己定义一个包，并在自己的演示仓库里通过Composer引入
+2）自己定义一个Composer包，并在另一个项目里去引入这个包
+
+不必发布到 https://packagist.org ，指定代码仓库源即可，参考文档：
+
+- https://getcomposer.org/doc/05-repositories.md#loading-a-package-from-a-vcs-repository
+- http://docs.phpcomposer.com/02-libraries.html#Publishing-to-a-VCS （中文）
 
 ## 前端资源包
 
