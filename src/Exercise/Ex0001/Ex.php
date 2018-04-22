@@ -20,7 +20,14 @@ class Ex
      */
     public function getSortedCoreComponentClassNames()
     {
-        return [];
+        $app = $this->createDummyApplication();
+        $coreComponents = $app->coreComponents();
+        $expected = [];
+        foreach ($coreComponents as $key => $coreComponent) {
+            $expected[] = $coreComponent['class'];
+        }
+        sort($expected, SORT_REGULAR);
+        return $expected;
     }
 
     /**
